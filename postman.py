@@ -8,8 +8,7 @@ df = pd.read_csv('./data/master.csv')
 json_data = df.to_json(orient='records')
 
 # Define the URL to send the JSON data
-url = 'https://masystech.webhook.office.com/webhookb2/44498912-eabf-411f-9da8-34b10c20abf7@303f4a70-08fa-479e-9437-9fb716426a8f/IncomingWebhook/0f4f61b50d1044dd814530878f87ecbe/419cc1f3-eaec-4d94-8cbd-25e076276fa5'
-
+url = '...'
 # Set the headers for the request
 headers = {'Content-Type': 'application/json'}
 
